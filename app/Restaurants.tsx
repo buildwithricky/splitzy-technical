@@ -13,7 +13,7 @@ const Restaurants: React.FC = () => {
       setIsLoading(false);
     }, 2000);
 
-    // Cleanup the timer when the component unmounts
+    
     return () => clearTimeout(timer);
   }, []);
 

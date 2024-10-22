@@ -15,8 +15,7 @@ return (
         style={styles.input}
         placeholder='Set a Preferred Budget'
         value={amount}
-       // This ensures the keyboard is optimized for numeric input
-        onChangeText={(text: string) => setAmount(text)}  // Enforce that text is a string
+        onChangeText={(text: string) => setAmount(text)}  
       />
       <View style={styles?.buttonContainer}>
       <CustomButton  path={

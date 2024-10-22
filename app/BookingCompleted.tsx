@@ -16,11 +16,11 @@ const BookingCompleted: React.FC<PaymentInitiationModalProps> = ({ visible, onCl
       duration: 1000,
       useNativeDriver: false,
     }).start(() => {
-      // Optionally auto-close the modal after animation, or let the user close manually.
+    
     });
   };
 
-  // Interpolations for animated SVG
+
   const strokeDashoffset = animationValue.interpolate({
     inputRange: [0, 1],
     outputRange: [100, 0],

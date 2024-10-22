@@ -3,7 +3,7 @@ type Restaurant = {
     name: string;
     location: string;
     rating: number;
-    estimated_budget: number; // Changed to reflect the new range
+    estimated_budget: number; 
     partner_property: string;
     payment_id: string;
   };
